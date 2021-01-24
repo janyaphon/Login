@@ -19,7 +19,11 @@ class _LoginState extends State<Login> {
         title: Text("Login Page"),
       ),
       body: Container(
-        color: Colors.white,
+         decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('img/back.jpg'),
+            ) 
+            ) ,
         child: Form(
           key: _formKey,
           child: Column(
